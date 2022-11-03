@@ -1,0 +1,55 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
+
+* { background-color: black;
+}
+
+#navbar ul { 
+	margin: 0; 
+	/*padding: 5px; */
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+    padding: .9em 2em; 
+	} 
+
+.text1{
+    margin-top:60px;
+    padding: .9em 2em; 
+	color: #fff; 
+	background-color: #000; 
+	font-family: Roboto;
+	font-size: 1vw;
+    text-align: center;
+    margin-bottom:60px;
+	} 
+.image img {
+    display:block;
+    margin:auto;
+}
+.image2 img {
+    display:block;
+    margin:auto;
+    padding-top:20px;
+}
+.image3 img {
+    display:block;
+    margin:auto;
+    padding-top:20px;
+}
+.image4 img {
+    display:block;
+    margin:auto;
+    padding-top:20px;
+}
+
+.image5 img{
+    display:block;
+    margin:auto;
+    padding-top:20px;
+}

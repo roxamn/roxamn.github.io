@@ -1,0 +1,217 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
+
+* { background-color: black;
+}
+
+#navbar ul { 
+	margin: 0; 
+	/*padding: 5px; */
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+    padding: .9em 2em; 
+	} 
+
+.text{
+    margin-top:60px;
+    padding: .9em 2em; 
+	color: #fff; 
+	background-color: #000; 
+	font-family: Roboto;
+	font-size: 1vw;
+    text-align: center;
+    margin-bottom:60px;
+	} 
+.animated-line {
+		margin:0 auto;
+		width:5px;
+		height:300px;
+		overflow:hidden;
+		background:rgb(185, 181, 181);
+		position:relative;
+	  }
+	  
+.animated-line::before {
+		content:'';
+		display:block;
+		width:5px;
+		height:500px;
+		background:black;
+		position:absolute;
+		top:-100%;
+		left:0;
+		animation: animate 3s ease-in-out infinite;
+	  }
+
+	  
+	  @keyframes animate {
+		0% { top: -100%; }
+		50% { top: 0; }
+		100% { top: 100%; }
+	  }
+      .waterfall-container {
+        display: flex;
+        justify-content: center;
+        transition: all 0.4s ease;
+        margin-top:10%;
+    
+    }
+    .tower-container {
+        display: flex;
+        justify-content: center;
+        transition: all 0.4s ease;
+        margin-top:10%;
+    
+    }
+    
+    .statue-container {
+        display: flex;
+        justify-content: center;
+        transition: all 0.4s ease;
+        margin-top:10%;
+    
+    }
+    
+    .columns-container {
+        display: flex;
+        justify-content: center;
+        transition: all 0.4s ease;
+        margin-top:10%;
+    
+    }
+
+    .trees-container {
+        display: flex;
+        justify-content: center;
+        transition: all 0.4s ease;
+        margin-top:10%;
+    }
+    
+    
+    .waterfall-container img{
+     width:500px;
+     height:auto;
+    }
+    
+    .tower-container img{
+        width:500px;
+        height:auto;
+    }
+    .statue-container img{
+        width:500px;
+        height:auto;
+    }
+    .columns-container img{
+        width:500px;
+        height:auto;
+    }
+
+    .trees-container img{
+        width:500px;
+        height:auto;
+    }
+    
+    .waterfall-container .text1 {
+        opacity: 0;
+    }
+    .tower-container .text2 {
+        opacity: 0;
+    }
+    .statue-container .text3 {
+        opacity: 0;
+    }
+    .columns-container .text4 {
+        opacity: 0;
+    }
+
+    .trees-container .text5 {
+        opacity: 0;
+    }
+    .waterfall-container:hover .text1 {
+        width: 50%;
+        opacity: 100%;
+        }
+    .tower-container:hover .text2 {
+        width: 50%;
+        opacity: 100%;
+    }
+    
+    .statue-container:hover .text3 {
+        width: 50%;
+        opacity: 100%;
+    }
+    .columns-container:hover .text4 {
+        width: 50%;
+        opacity: 100%;
+    }
+    .trees-container:hover .text5 {
+        width: 50%;
+        opacity: 100%;
+    }
+    .text1 {
+        width: 0;
+        transition: all 0.4s ease;
+        font-family: Roboto;
+        color:antiquewhite;
+        font-size:0.9vw;
+        }
+    .text2 {
+        width: 0;
+        transition: all 0.4s ease;
+        font-family: Roboto;
+        color:antiquewhite;
+        font-size:0.9vw;
+    } 
+    .text3 {
+        width: 0;
+        transition: all 0.4s ease;
+        font-family: Roboto;
+        color:antiquewhite;
+        font-size:0.9vw;
+    } 
+    
+    .text4{
+        width: 0;
+        transition: all 0.4s ease;
+        font-family: Roboto;
+        color:antiquewhite;
+        font-size:0.9vw;
+    }
+
+    .text5{
+        width: 0;
+        transition: all 0.4s ease;
+        font-family: Roboto;
+        color:antiquewhite;
+        font-size:0.9vw;  
+    }
+    
+    .waterfall-div {
+        width: 50%;
+        transition: all 0.4s ease;
+        }
+    .tower-div {
+        width: 50%;
+        transition: all 0.4s ease;
+    }
+    .statue-div {
+        width: 50%;
+        transition: all 0.4s ease;
+    }
+    
+    .columns-div {
+        width: 50%;
+        transition: all 0.4s ease;
+    }
+
+    .trees-div {
+        width: 50%;
+        transition: all 0.4s ease;
+    }
+    

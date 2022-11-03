@@ -1,0 +1,221 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+
+
+* { background-color: black;
+}
+
+#navbar ul { 
+	margin: 0; 
+	/*padding: 5px; */
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+
+p {
+	font-family: Roboto;
+	color:antiquewhite;
+	font-size:0.9vw;
+	text-align: center;
+	}
+.parent p {
+	margin-top:10%;
+}
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .9em 2em; 
+	color: #fff; 
+	background-color: #000; 
+	font-family: Roboto;
+	font-size: 1.5vw;
+	} 
+.animated-line {
+		margin:0 auto;
+		width:5px;
+		height:300px;
+		overflow:hidden;
+		background:rgb(185, 181, 181);
+		position:relative;
+	  }
+	  
+.animated-line::before {
+		content:'';
+		display:block;
+		width:5px;
+		height:500px;
+		background:black;
+		position:absolute;
+		top:-100%;
+		left:0;
+		animation: animate 3s ease-in-out infinite;
+	  }
+
+	  
+	  @keyframes animate {
+		0% { top: -100%; }
+		50% { top: 0; }
+		100% { top: 100%; }
+	  }
+		
+
+
+.circle {
+   height: 30vw;
+   width: 30vw;
+   background-color: rgb(195, 190, 186);
+   border-radius: 50%;
+   display: block;
+   margin: auto;
+   margin-top:5%;
+}
+
+.circle-lines img {
+	position:absolute;
+	top: 29;
+	left:35%;
+	height: 30vw;
+	width: 30vw;
+	opacity: 0%;
+	
+}
+
+.circle-lines img:hover{
+	opacity:100%;
+	transition: all 0.8s ease;
+}
+
+
+.staircase-container {
+	display: flex;
+	justify-content: center;
+	transition: all 0.4s ease;
+	margin-top:10%;
+
+}
+.window-container {
+	display: flex;
+	justify-content: center;
+	transition: all 0.4s ease;
+	margin-top:10%;
+
+}
+
+.house-container {
+	display: flex;
+	justify-content: center;
+	transition: all 0.4s ease;
+	margin-top:10%;
+
+}
+
+.stained-container {
+	display: flex;
+	justify-content: center;
+	transition: all 0.4s ease;
+	margin-top:10%;
+
+}
+
+.staircase-container img{
+ width:500px;
+ height:auto;
+}
+
+.window-container img{
+	width:500px;
+	height:auto;
+}
+.house-container img{
+	width:500px;
+	height:auto;
+}
+.stained-container img{
+	width:500px;
+	height:auto;
+}
+
+.staircase-container .text1 {
+	opacity: 0;
+}
+.window-container .text2 {
+	opacity: 0;
+}
+.house-container .text3 {
+	opacity: 0;
+}
+.stained-container .text4 {
+	opacity: 0;
+}
+.staircase-container:hover .text1 {
+	width: 50%;
+	opacity: 100%;
+	}
+.window-container:hover .text2 {
+	width: 50%;
+	opacity: 100%;
+}
+
+.house-container:hover .text3 {
+	width: 50%;
+	opacity: 100%;
+}
+.stained-container:hover .text4 {
+	width: 50%;
+	opacity: 100%;
+}
+
+.text1 {
+	width: 0;
+	transition: all 0.4s ease;
+	font-family: Roboto;
+	color:antiquewhite;
+	font-size:0.9vw;
+	}
+.text2 {
+	width: 0;
+	transition: all 0.4s ease;
+	font-family: Roboto;
+	color:antiquewhite;
+	font-size:0.9vw;
+} 
+.text3 {
+	width: 0;
+	transition: all 0.4s ease;
+	font-family: Roboto;
+	color:antiquewhite;
+	font-size:0.9vw;
+} 
+
+.text4{
+	width: 0;
+	transition: all 0.4s ease;
+	font-family: Roboto;
+	color:antiquewhite;
+	font-size:0.9vw;
+}
+
+.staircase-div {
+	width: 50%;
+	transition: all 0.4s ease;
+	}
+.window-div {
+	width: 50%;
+	transition: all 0.4s ease;
+}
+.house-div {
+	width: 50%;
+	transition: all 0.4s ease;
+}
+
+.stained-div {
+	width: 50%;
+	transition: all 0.4s ease;
+}
+
+
